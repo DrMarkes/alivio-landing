@@ -12,8 +12,13 @@
 a,
 a:visited,
 a:hover {
-    color: inherit;
+    text-align: center;
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #01996D;
 }
 
 a:active,
@@ -47,6 +52,10 @@ p {
 
 p + p {
     margin-top: 1em;
+}
+
+ul {
+    list-style: none;
 }
 
 img,
