@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alivio</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <!-- Blocks css -->
-    <link rel="stylesheet" href="./css/blocks/header.css">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
-    <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css">
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-row">
-                <div class="header-logo">
-                    <a href="#">
-                        <img src="./img/Logo.svg" alt="Logo">
-                    </a>
-                </div>
-                <nav class="header-nav">
-                    <ul>
-                        <li><a href="#">Why Alivio</a></li>
-                        <li><a href="#">Solutions</a></li>
-                        <li><a href="#">Community</a></li>
-                        <li><a href="#">Pricing</a></li>
-                    </ul>
-                </nav>
-                <div class="header-login">
-                    <a href="#">Sign in</a>
-                    <a class="btn" href="#">Start Trial</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alivio</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/base.css" />
+        <!-- Blocks css -->
+        <link rel="stylesheet" href="./css/blocks/buttons.css" />
+        <link rel="stylesheet" href="./css/blocks/header.css" />
+        <link rel="stylesheet" href="./css/blocks/home.css" />
+        <!-- Fonts -->
+        <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
+        <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
+        <link rel="stylesheet" href="./css/polyfill/object-fit-IE.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="./img/Logo.svg" alt="Logo" />
+                        </a>
+                    </div>
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="#">Why Alivio</a></li>
+                            <li><a href="#">Solutions</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-login">
+                        <a class="header-login-link" href="#">Sign in</a>
+                        <a class="btn btn--small" href="#">Start Trial</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-</body>
+        </header>
+        <main class="main">
+            <div class="home">
+                <img src="./img/home-bg-img.jpg" alt="" class="home-bg-img object-fit" />
+                <div class="container">
+                    <div class="home-container">
+                        <div class="home-title">Be aware, Manage well.</div>
+                        <div class="home-description">
+                            <p>
+                                Everyone experiences stress in different ways.
+                                Let Alivio guide you, in a personalized journal
+                                experience, to overcome your stress.
+                            </p>
+                        </div>
+                        <div class="home-btn">
+                            <a href="#" class="btn">Find Your Way</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="./js/object-fit-IE.js"></script>
+    </body>
 </html>

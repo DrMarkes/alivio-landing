@@ -8,6 +8,7 @@
     justify-content: flex-start;
     height: inherit;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .header-logo {
@@ -45,36 +46,19 @@
 .header-login {
     display: flex;
     margin-left: auto;
-}
-
-.header-login a {
-    padding: 13px 25px;
-    line-height: 24px;
-    color: #000;
+    align-items: center;
 }
 
 .header-login > *:not(:last-child) {
     margin-right: 10px;
 }
 
-.header-login a:hover {
-    color: #01996d;
-}
-
-.btn,
-a.btn {
-    padding: 13px 50px;
-    font-weight: 400;
-    font-size: 20px;
+.header-login-link {
+    padding: 13px 25px;
     line-height: 24px;
-    color: #fff;
-    background-color: #01996d;
-    border-radius: 4px;
-    transition: opacity 0.2s ease;
+    color: #000;
 }
 
-.btn:hover,
-a.btn:hover {
-    opacity: 0.8;
-    color: #fff;
+.header-login-link:hover {
+    color: #01996d;
 }

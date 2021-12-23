@@ -1,0 +1,17 @@
+@supports (object-fit: cover) {
+    .object-fit {
+        display: block;
+      }
+      
+      .object-fit-parent {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
+      .object-fit-parent .object-fit {
+        opacity: 0;
+        user-select: none;
+        pointer-events: none;
+      }
+}

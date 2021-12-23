@@ -1,0 +1,23 @@
+.btn,
+a.btn {
+    display: block;
+    padding: 20px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #01996d;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover,
+a.btn:hover {
+    opacity: 0.8;
+    color: #fff;
+}
+
+.btn--small,
+a.btn--small {
+    padding: 13px 50px;
+}
