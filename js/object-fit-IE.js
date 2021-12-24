@@ -1,4 +1,4 @@
-if (CSS.supports('object-fit', 'cover')) {
+if (!CSS.supports('object-fit', 'cover')) {
     const images = document.querySelectorAll('img.object-fit');
     images.forEach(image => {
         const parent = image.parentElement;

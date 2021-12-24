@@ -1,4 +1,4 @@
-@supports (object-fit: cover) {
+@supports not (object-fit: cover) {
     .object-fit {
         display: block;
       }
