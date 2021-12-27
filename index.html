@@ -12,7 +12,9 @@
         <link rel="stylesheet" href="./css/blocks/header.css" />
         <link rel="stylesheet" href="./css/blocks/home.css" />
         <link rel="stylesheet" href="./css/blocks/how-it-works.css" />
-        <link rel="stylesheet" href="./css/blocks/success-story.css">
+        <link rel="stylesheet" href="./css/blocks/success-story.css" />
+        <link rel="stylesheet" href="./css/blocks/our-product.css" />
+        <link rel="stylesheet" href="./css/blocks/our-product-card.css">
         <!-- Fonts -->
         <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css" />
         <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css" />
@@ -43,7 +45,7 @@
             </div>
         </header>
         <main class="main">
-            <div class="home none">
+            <section class="home none">
                 <img
                     src="./img/home-bg-img.jpg"
                     alt=""
@@ -64,8 +66,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="how-it-works none">
+            </section>
+
+            <section class="how-it-works none">
                 <div class="container">
                     <div class="how-it-works-header">
                         <h2 class="title">How it works</h2>
@@ -154,28 +157,90 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="success-story">
+            </section>
+
+            <section class="success-story none">
                 <div class="container">
                     <div class="success-story-row">
                         <div class="success-story-content">
-                                <h3 class="success-story-content-title">Let's hear about Kayla's success story</h3>
-                           <div class="success-story-content-text">
-                               <p>See how well Alivio works in a real customer’s life.</p>
-                           </div>
-                           <div class="btn-wrapper">
-                               <a href="#" class="btn">Let’s get started</a>
-                           </div>
+                            <h3 class="success-story-content-title">
+                                Let's hear about Kayla's success story
+                            </h3>
+                            <div class="success-story-content-text">
+                                <p>
+                                    See how well Alivio works in a real
+                                    customer’s life.
+                                </p>
+                            </div>
+                            <div class="btn-wrapper">
+                                <a href="#" class="btn">Let’s get started</a>
+                            </div>
                         </div>
                         <div class="success-story-video-wrapper">
                             <div class="overlay-video">
-                                <img src="./img/play-white.svg" alt="">
+                                <img src="./img/play-white.svg" alt="" />
                             </div>
-                            <img class="story-video" src="./img/story-video-img.jpg" alt="story video">
+                            <img
+                                class="story-video"
+                                src="./img/story-video-img.jpg"
+                                alt="story video"
+                            />
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+            <section class="our-product">
+                <div class="container">
+                    <div class="our-product-row">
+                        <div class="our-product-image-container">
+                            <div class="our-product-image-wrapper">
+                                <img src="./img/our-product/our-product-img.png" alt="">
+                            </div>
+                            <div class="our-product-card-wrapper">
+                                <!-- Card Our Product -->
+                                <div class="card">
+                                    <div class="card-title">
+                                        <h4>Customized For</h4>
+                                    </div>
+                                    <div class="card-avatar">
+                                        <img src="./img/our-product/card-avatar.png" alt="avatar">
+                                    </div>
+                                    <div class="card-user-name">
+                                        <p>Mikayla</p>
+                                    </div>
+                                    <div class="card-subtitle">
+                                        <h5>Your custom contents</h5>
+                                    </div>
+                                    <div class="card-text">
+                                        <ul>
+                                            <li>Understand Your Stress</li>
+                                            <li>Anger Management</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- // Card Our Product -->
+                            </div>
+                        </div>
+                        <div class="our-product-text-container">
+                            <h2 class="our-product-title">Our product</h2>
+                            <h3 class="our-product-subtitle">
+                                You tell us your stress, We make your diary
+                            </h3>
+                            <p class="our-product-text">
+                                Everyone experiences it, and in different ways.
+                                Let Alivio guide you, in a personalized journal
+                                experience, to overcome your stress.
+                            </p>
+                            <div class="our-product-btn-wrapper">
+                                <a href="#" class="btn our-product-btn">
+                                    Find Your Way
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <script src="./js/object-fit-IE.js"></script>
     </body>
